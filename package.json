@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "plumber": "^0.4.8",
+    "sass": "^1.58.3"
+  },
+  "name": "festival_musica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0"
+  },
+  "scripts": {
+    "sass": "sass src/scss:build/css",
+    "css": "gulp css",
+    "_comentario1": "nombre de la tarea: va a gulp y abre css. ",
+    "_comentario2": "npm run css ",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leidyjaimes0711/festival_musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Leidy Jaimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leidyjaimes0711/festival_musica/issues"
+  },
+  "homepage": "https://github.com/leidyjaimes0711/festival_musica#readme"
+}
