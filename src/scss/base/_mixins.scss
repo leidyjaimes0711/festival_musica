@@ -1,0 +1,11 @@
+@use 'variables';
+@mixin heading ($color:blue, $border-radius:false) { //sirve para codigo repetitivo
+
+    text-transform: uppercase;
+    font-size: 2.4 rem;
+    color: $color;
+    letter-spacing: 1px;
+    @if $border-radius {
+        border-radius: 2rem;
+    }
+}
