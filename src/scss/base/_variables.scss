@@ -1,3 +1,4 @@
+
 //tipografia
 
 $fuente_principal: 'Montserrat', sans-serif;
@@ -6,9 +7,12 @@ $fuente_principal: 'Montserrat', sans-serif;
 //colores
 
 $verde: #4cb8b3;
-$rosa: #f53756;
+$rosa: rgb(255, 0, 115);
 $amarillo: #fef46d;
 $morado: #752f97;
 $negro: #000000;
 $blanco: #ffffff;
 
+$tablet: 760px;
+$desktop: 996px;
+$telefono: 480px;
