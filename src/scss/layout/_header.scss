@@ -3,6 +3,19 @@
 
 .header {
     background-color: v.$verde;
+
+    @include m.tablet {
+
+        &.fijo {
+            left: 0;
+            top: 0;
+            position: fixed;
+            width: 100%;
+            box-shadow: .1rem .2rem .3rem #333;
+        }
+    }
+
+    
     h1 {
         color: v.$blanco;
         text-align: center;
@@ -49,3 +62,5 @@
     @include m.heading(v.$amarillo, true);
     background-color: grey;
 }
+
+

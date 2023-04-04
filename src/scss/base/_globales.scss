@@ -4,7 +4,7 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-*, //esto evita que el padding nos de problemas
+*, 
 *:before,
 *:after{
     box-sizing: inherit;
@@ -14,8 +14,12 @@ body {
     font-family: v.$fuente-principal;
     font-size: 1.6rem;
 
-    &.fijar-body{//si llega a haber esta clase, haga lo siguiente1
+    &.fijar-body{
         overflow: hidden;
+    }
+
+    &.body-scroll {
+        padding-top: 85.99px;
     }
 
 }
@@ -31,7 +35,6 @@ p{
     width: 95%;
     max-width: 120rem;
     margin: 0 auto;
-
 }
 
 a{
